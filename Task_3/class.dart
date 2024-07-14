@@ -3,8 +3,7 @@ class Book {
   String? author;
 
   void displayBookInfo() {
-    print("The Title of the book is: $title");
-    print("The Author of the book is: $author");
+    print("The Title and Author of the book is: $title ,  $author");
   }
 }
 
@@ -16,7 +15,7 @@ class Library {
   }
 
   void displayAllBooks() {
-    
+
     books.forEach((Element) {
       Element.displayBookInfo();
     });
